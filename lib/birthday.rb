@@ -15,7 +15,7 @@ def age_appropriate_birthday(hash)
     if age < 13
       puts "Happy Birthday #{kid}! You are now #{age} years old!"
     else
-      "You are to old for this."
+      puts "You are to old for this."
     end
   end
 end
